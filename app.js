@@ -2,7 +2,7 @@ var btnTranslate = document.querySelector("#btn-translate")
 var txtinput =  document.querySelector("#txt-area")
 var outputtxt = document.querySelector("#output")
 
-var serverURl = "http://api.weatherapi.com/v1/current.json?key=21f2acfd5cb34f509b2103710221212&q=chandrapur&aqi=no"
+var serverURl = "https://api.funtranslations.com/translate/minion.json"
 
 function getTranslationURl (input){
     return serverURl +"?" + "text=" + input
